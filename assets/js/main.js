@@ -4,7 +4,7 @@ const questions = [
         intrusiveThought: "Seu pensamento intrusivo diz para perguntar se ele colocou o cabelo lá para ganhar um pão grátis.",
         mainQuestion: "O que você faz?",
         options: [
-            { text: "1. Pede desculpas e promete investigar o caso.", points: 3 },
+            { text: "1. Pede desculpas e promete investigar o caso.", points: 0 },
             { text: "2. Diz: 'Tem certeza que não foi você?'", points: 7 },
             { text: "3. Responde: 'Cabelo é um brinde especial 😁😁'", points: 10 }
         ]
@@ -15,8 +15,8 @@ const questions = [
         mainQuestion: "O que você faz?",
         options: [
             { text: "1. Responde: 'Tem gente na fila, calma.'", points: 5 },
-            { text: "2. Pede desculpas pelo atraso e o atende imediatamente.", points: 3 },
-            { text: "3. Sai para tomar um café e pensa nisso depois.", points: 8 }
+            { text: "2. Pede desculpas pelo atraso e o atende imediatamente.", points: 0 },
+            { text: "3. Sai para tomar um café e pensa nisso depois.", points: 7 }
         ]
     },
     {
@@ -26,7 +26,7 @@ const questions = [
         options: [
             { text: "1. Responde: 'Então não coma.'", points: 9 },
             { text: "2. Diz: 'Talvez o problema esteja no seu forno.'", points: 6 },
-            { text: "3. Pede desculpas e explica a ele sobre a preparação correta do produto.", points: 2 }
+            { text: "3. Pede desculpas e explica a ele sobre a preparação correta do produto.", points: 0 }
         ]
     },
     {
@@ -35,8 +35,8 @@ const questions = [
         mainQuestion: "Como você resolve a situação?",
         options: [
             { text: "1. Responde: 'Problema seu 😅'", points: 10 },
-            { text: "2. Pede desculpas e envia o pedido correto.", points: 3 },
-            { text: "3. Diz: 'Confirme se você pediu certo.'", points: 6 }
+            { text: "2. Pede desculpas e envia o pedido correto.", points: 0 },
+            { text: "3. Diz: 'Confirme se você pediu certo.'", points: 5 }
         ]
     },
     {
@@ -44,9 +44,9 @@ const questions = [
         intrusiveThought: "O seu pensamento intrusivo diz para você oferecer um brinde como compensação pelo plástico extra.",
         mainQuestion: "O que você faz?",
         options: [
-            { text: "1. Pede desculpas e promete investigar o ocorrido.", points: 2 },
-            { text: "2. Diz: 'A embalagem está no pão, faz parte.'", points: 10 },
-            { text: "3. Responde: 'Relaxa, é cortesia da casa.'", points: 8 },
+            { text: "1. Pede desculpas e promete investigar o ocorrido.", points: 0 },
+            { text: "2. Diz: 'A embalagem está no pão, faz parte.'", points: 9 },
+            { text: "3. Responde: 'Relaxa, é cortesia da casa.'", points: 10 },
         ]
     },
     {
@@ -54,9 +54,9 @@ const questions = [
         intrusiveThought: "O seu pensamento intrusivo diz para você mandar ele pedir um novo pão com o sabor certo.",
         mainQuestion: "O que você faz?",
         options: [
-            { text: "1. Pede desculpas e tenta explicar para o cliente como preparar o pão da maneira correta.", points: 2 },
+            { text: "1. Pede desculpas e tenta explicar para o cliente como preparar o pão da maneira correta.", points: 0 },
             { text: "2. Responde: 'Se você preparar do jeito certo ele terá um sabor melhor!'", points: 9 },
-            { text: "3. Diz: 'Então aprenda a preparar o seu próprio pão.'", points: 11 }
+            { text: "3. Diz: 'Então aprenda a preparar o seu próprio pão.'", points: 8 }
         ]
     },
     {
@@ -65,8 +65,8 @@ const questions = [
         mainQuestion: "O que você responde?",
         options: [
             { text: "1. Responde: 'Talvez você precise comprar óculos.'", points: 9 },
-            { text: "2. Pede desculpas e explique que pode ter ocorrido um erro no lote.", points: 3 },
-            { text: "3. Diz: 'Pequeno, mas saboroso!'", points: 5 }
+            { text: "2. Pede desculpas e explique que pode ter ocorrido um erro no lote.", points: 0 },
+            { text: "3. Diz: 'Pequeno, mas saboroso!'", points: 4 }
         ]
     },
     {
@@ -75,8 +75,8 @@ const questions = [
         mainQuestion: "Como você responde?",
         options: [
             { text: "1. Responde: 'Ele cresceu sim, talvez você que tenha dificuldades de visão.'", points: 10 },
-            { text: "2. Diz: 'Não era para crescer mesmo, ele é feito para ser assim.'", points: 5 },
-            { text: "3. Explica que o processo de fermentação é feito na fabricação e que ele não cresce mais depois.", points: 2 },
+            { text: "2. Diz: 'Não era para crescer mesmo, ele é feito para ser assim.'", points: 6 },
+            { text: "3. Explica que o processo de fermentação é feito na fabricação e que ele não cresce mais depois.", points: 0 },
         ]
     },
     {
@@ -84,9 +84,9 @@ const questions = [
         intrusiveThought: "O seu pensamento intrusivo diz para dizer que a vida não gira em torno dele.",
         mainQuestion: "O que você faz?",
         options: [
-            { text: "1. Pede desculpas e informa os horários de funcionamento.", points: 3 },
-            { text: "2. Responde: 'Você acha que somos robôs?'", points: 10 },
-            { text: "3. Fala para usar o FAQ enquanto estamos offline.", points: 6 },
+            { text: "1. Pede desculpas e informa os horários de funcionamento.", points: 0 },
+            { text: "2. Responde: 'Você acha que somos robôs?'", points: 8 },
+            { text: "3. Fala para usar o FAQ enquanto estamos offline.", points: 3 },
         ]
     },
     {
@@ -95,8 +95,8 @@ const questions = [
         mainQuestion: "O que você faz?",
         options: [
             { text: "1. Responde: 'É só comprar 1kg de mussarela no mercado e colocar em cima!'", points: 9 },
-            { text: "2. Pede desculpas e informa que o nosso pão de queijo é o único que de fato vai queijo na receita.", points: 2 },
-            { text: "3. Pergunta se ele tem certeza que assou o pão de queijo da Brico e não um de outra marca.", points: 6 },
+            { text: "2. Pede desculpas e informa que o nosso pão de queijo é o único que de fato vai queijo na receita.", points: 0 },
+            { text: "3. Pergunta se ele tem certeza que assou o pão de queijo da Brico e não um de outra marca.", points: 5 },
         ]
     },
     {
@@ -104,9 +104,9 @@ const questions = [
         intrusiveThought: "O seu pensamento intrusivo manda perguntar se ele sabe o preço do trigo.",
         mainQuestion: "Como você responde?",
         options: [
-            { text: "1. Diz para ele fazer o próprio pão em casa.", points: 7 },
-            { text: "2. Explica que o preço reflete a qualidade e o processo de produção.", points: 3 },
-            { text: "3. Responde: 'É só parar de reclamar e ir comprar em outro lugar.'", points: 9 }
+            { text: "1. Diz para ele fazer o próprio pão em casa.", points: 9 },
+            { text: "2. Explica que o preço reflete a qualidade e o processo de produção.", points: 0 },
+            { text: "3. Responde: 'É só parar de reclamar e ir comprar em outro lugar.'", points: 10 }
         ]
     },
     {
@@ -114,9 +114,9 @@ const questions = [
         intrusiveThought: "O seu pensamento intrusivo diz: 'Pergunte se ele sabe ler rótulos.'",
         mainQuestion: "O que você faz?",
         options: [
-            { text: "1. Diz: 'Está no rótulo, você deveria ter lido.'", points: 5 },
+            { text: "1. Diz: 'Está no rótulo, você deveria ter lido.'", points: 8 },
             { text: "2. Responde: 'Se você soubesse ler isso não teria acontecido.'", points: 10 },
-            { text: "3. Pede desculpas e explica onde estão as informações no rótulo.", points: 3 }
+            { text: "3. Pede desculpas e explica onde estão as informações no rótulo.", points: 0 }
         ]
     }
 ];

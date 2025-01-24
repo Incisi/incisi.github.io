@@ -149,7 +149,7 @@ button:hover {
 
 @media screen and (min-width: 1400px) {
     .quiz-section h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .quiz-section p {
@@ -169,7 +169,7 @@ button:hover {
 
 @media screen and (min-width: 1920px) {
     .quiz-section h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .quiz-section p {
@@ -178,7 +178,7 @@ button:hover {
 
     #options li {
         font-size: 1.8rem;
-        line-height: 2;
+        line-height: 1.6;
     }
 
     button {
