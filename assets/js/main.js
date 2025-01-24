@@ -1,6 +1,6 @@
 const questions = [
     {
-        clientQuestion: "O cliente diz que achou um cabelo no pão.",
+        clientQuestion: "(1/12) O cliente diz que achou um cabelo no pão.",
         intrusiveThought: "Seu pensamento intrusivo diz para perguntar se ele colocou o cabelo lá para ganhar um pão grátis.",
         mainQuestion: "O que você faz?",
         options: [
@@ -10,7 +10,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente diz que está esperando há 20 minutos por uma resposta no chat.",
+        clientQuestion: "(2/12) O cliente diz que está esperando há 20 minutos por uma resposta no chat.",
         intrusiveThought: "Seu pensamento intrusivo diz para ignorar e ver se ele desiste.",
         mainQuestion: "O que você faz?",
         options: [
@@ -20,7 +20,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente diz que o pão ficou queimado e exige que seja feita uma troca!",
+        clientQuestion: "(3/12) O cliente diz que o pão ficou queimado e exige que seja feita uma troca!",
         intrusiveThought: "O seu pensamento intrusivo diz para mandar ele aprender a usar um forno.",
         mainQuestion: "O que você faz?",
         options: [
@@ -30,7 +30,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente diz que o pedido chegou errado!",
+        clientQuestion: "(4/12) O cliente diz que o pedido chegou errado!",
         intrusiveThought: "O seu pensamento intrusivo diz para perguntar se ele leu o pedido direito.",
         mainQuestion: "Como você resolve a situação?",
         options: [
@@ -40,7 +40,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente diz que encontrou um pedaço de plástico no pão.",
+        clientQuestion: "(5/12) O cliente diz que encontrou um pedaço de plástico no pão.",
         intrusiveThought: "O seu pensamento intrusivo diz para você oferecer um brinde como compensação pelo plástico extra.",
         mainQuestion: "O que você faz?",
         options: [
@@ -50,17 +50,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente pergunta se a gente faz entrega.",
-        intrusiveThought: "O seu pensamento intrusivo diz para você mandar o cliente fazer o cardio do dia e vir na loja buscar!",
-        mainQuestion: "O que você faz?",
-        options: [
-            { text: "1. Informa o cliente que não realizamos entregas para pessoas físicas.", points: 1 },
-            { text: "2. Manda ele procurar em uma de nossas lojas parceiras.", points: 2 },
-            { text: "3. Fala pra ele deixar de ser preguiçoso e levantar a bunda do sofá.", points: 10 }
-        ]
-    },
-    {
-        clientQuestion: "O cliente diz que o pão não tem o sabor que ele esperava.",
+        clientQuestion: "(6/12) O cliente diz que o pão não tem o sabor que ele esperava.",
         intrusiveThought: "O seu pensamento intrusivo diz para você mandar ele pedir um novo pão com o sabor certo.",
         mainQuestion: "O que você faz?",
         options: [
@@ -70,7 +60,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente diz: 'Por que o pão que entregaram é tão pequeno?'",
+        clientQuestion: "(7/12) O cliente diz: 'Por que o pão que entregaram é tão pequeno?'",
         intrusiveThought: "O seu pensamento intrusivo diz para perguntar se ele já ouviu falar em dieta.",
         mainQuestion: "O que você responde?",
         options: [
@@ -80,17 +70,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente fala: 'Por que o pão veio congelado? Pensei que fosse fresco.'",
-        intrusiveThought: "O seu pensamento intrusivo manda você dizer: 'Óbvio, não somos uma padaria.'",
-        mainQuestion: "Como você esclarece a situação?",
-        options: [
-            { text: "1. Diz: 'É claro, estamos em 2025, todo mundo sabe disso.'", points: 8 },
-            { text: "2. Explica gentilmente que o pão é ultracongelado para preservar a qualidade.", points: 2 },
-            { text: "3. Responde: 'Você deveria ter lido antes de comprar.'", points: 6 },
-        ]
-    },
-    {
-        clientQuestion: "O cliente pergunta se colocaram fermento vencido no pão, pois não cresceu nada!",
+        clientQuestion: "(8/12) O cliente pergunta se colocaram fermento vencido no pão, pois não cresceu nada!",
         intrusiveThought: "O seu pensamento intrusivo diz para sugerir que ele preste atenção no que ele está comprando.",
         mainQuestion: "Como você responde?",
         options: [
@@ -100,17 +80,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente diz: 'Por que a validade do pão está curta? Não dá tempo de consumir tudo!'",
-        intrusiveThought: "O seu pensamento intrusivo diz: 'Sugira que ele coma mais rápido.'",
-        mainQuestion: "Qual será sua explicação?",
-        options: [
-            { text: "1. Explica que os produtos têm um longo prazo de validade, e que ele deve checar a data antes de comprar", points: 3 },
-            { text: "2. Responde: 'Era só você ter olhado a data de validade.'", points: 5 },
-            { text: "3. Diz: 'Problema seu, não olhou a data de validade porque não quis.'", points: 8 }
-        ]
-    },
-    {
-        clientQuestion: "O cliente questiona o porquê de não termos atendimento 24 horas.",
+        clientQuestion: "(9/12) O cliente questiona o porquê de não termos atendimento 24 horas.",
         intrusiveThought: "O seu pensamento intrusivo diz para dizer que a vida não gira em torno dele.",
         mainQuestion: "O que você faz?",
         options: [
@@ -120,7 +90,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente reclama que o pão de queijo tem pouco queijo.",
+        clientQuestion: "(10/12) O cliente reclama que o pão de queijo tem pouco queijo.",
         intrusiveThought: "O seu pensamento intrusivo diz: 'Fale que vendemos pão de queijo, não queijo de pão'",
         mainQuestion: "O que você faz?",
         options: [
@@ -130,7 +100,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente pergunta porque o pão é tão caro se é só farinha com água!",
+        clientQuestion: "(11/12) O cliente pergunta porque o pão é tão caro se é só farinha com água!",
         intrusiveThought: "O seu pensamento intrusivo manda perguntar se ele sabe o preço do trigo.",
         mainQuestion: "Como você responde?",
         options: [
@@ -140,7 +110,7 @@ const questions = [
         ]
     },
     {
-        clientQuestion: "O cliente diz: 'Minha filha é alérgica e vocês não avisaram que tinha glúten!'",
+        clientQuestion: "(12/12) O cliente diz: 'Minha filha é alérgica e vocês não avisaram que tinha glúten!'",
         intrusiveThought: "O seu pensamento intrusivo diz: 'Pergunte se ele sabe ler rótulos.'",
         mainQuestion: "O que você faz?",
         options: [
@@ -210,14 +180,14 @@ function showResults() {
     quizElement.classList.add("feedback-active");
 
     let personality;
-    if (totalPoints <= 30) {
-        personality = "🧘 Você é extremamente calmo e profissional! Mantém sempre a compostura, mesmo nos momentos difíceis.";
-    } else if (totalPoints <= 60) {
-        personality = "⚖️ Você consegue equilibrar bem suas respostas, mas às vezes pode deixar escapar um pensamento intrusivo.";
-    } else if (totalPoints <= 100) {
-        personality = "😅 Seus pensamentos intrusivos começam a influenciar suas decisões. É bom ter cuidado para não perder o controle.";
+    if (totalPoints <= 49) {
+        personality = "✨ Uau, atendimento premium desbloqueado! Você é um exemplo de empatia e profissionalismo. Os clientes devem te adorar! Continue sendo esse mestre Jedi do atendimento ao cliente! 🧘‍♂️💫";
+    } else if (totalPoints <= 79) {
+        personality = "😎 Você está no caminho certo! Algumas respostas foram ótimas, mas outras... bom, talvez um pouquinho de paciência extra ajude. Respira fundo e segue em frente! 💪😉";
+    } else if (totalPoints <= 105) {
+        personality = "🤔 Eita, cuidado aí! Parece que os pensamentos intrusivos estão dando uns pitacos nas suas respostas. Vamos combinar de deixá-los no banco de reserva e trazer mais calma para o jogo? ⚽✋";
     } else {
-        personality = "🔥 Seus pensamentos intrusivos estão completamente no comando! Talvez seja hora de repensar como você lida com essas situações.";
+        personality = "🔥 Alerta vermelho! Parece que os pensamentos intrusivos estão assumindo o controle total! 🧨 É hora de acionar o modo zen e lembrar: paciência é uma virtude, e os clientes não merecem as respostas sinceronas demais. Você consegue virar o jogo! 🧘‍♀️🍀";
     }
 
     quizElement.innerHTML = `
