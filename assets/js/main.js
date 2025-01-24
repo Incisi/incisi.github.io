@@ -180,14 +180,14 @@ function showResults() {
     quizElement.classList.add("feedback-active");
 
     let personality;
-    if (totalPoints <= 49) {
-        personality = "✨ Uau, atendimento premium desbloqueado! Você é um exemplo de empatia e profissionalismo. Os clientes devem te adorar! Continue sendo esse mestre Jedi do atendimento ao cliente! 🧘‍♂️💫";
-    } else if (totalPoints <= 79) {
-        personality = "😎 Você está no caminho certo! Algumas respostas foram ótimas, mas outras... bom, talvez um pouquinho de paciência extra ajude. Respira fundo e segue em frente! 💪😉";
-    } else if (totalPoints <= 105) {
-        personality = "🤔 Eita, cuidado aí! Parece que os pensamentos intrusivos estão dando uns pitacos nas suas respostas. Vamos combinar de deixá-los no banco de reserva e trazer mais calma para o jogo? ⚽✋";
+    if (totalPoints <= 11) {
+        personality = "✨ Parabéns! Sua paciência e calma são dignas de um monge. Você lidou com todas as situações com a classe de quem respira fundo antes de responder. O cliente é rei e você é o mestre zen do atendimento. 🧘‍♂️🌿";
+    } else if (totalPoints <= 33) {
+        personality = "😌 Você teve um ou dois momentos de tensão, mas no geral conseguiu manter a compostura. Talvez um café (ou chá) ajude a balancear ainda mais o humor no próximo atendimento. Respire fundo, você está quase no nirvana! ☕🌸";
+    } else if (totalPoints <= 67) {
+        personality = "😅 Opa, parece que os pensamentos intrusivos saíram da jaula algumas vezes. Você tentou segurar, mas às vezes foi difícil evitar a sinceridade brutal. Que tal praticar a velha tática de contar até 10 antes de responder? 🌪️🤔";
     } else {
-        personality = "🔥 Alerta vermelho! Parece que os pensamentos intrusivos estão assumindo o controle total! 🧨 É hora de acionar o modo zen e lembrar: paciência é uma virtude, e os clientes não merecem as respostas sinceronas demais. Você consegue virar o jogo! 🧘‍♀️🍀";
+        personality = "🔥 Calma, calma! Sua sinceridade virou fogo e queimou a diplomacia no atendimento. Respire fundo, medite, ouça uma playlist relaxante... e talvez evite responder chats depois de um dia difícil. A comunicação é tudo, mas sem o temperamento explosivo! 🚨💥";
     }
 
     quizElement.innerHTML = `
